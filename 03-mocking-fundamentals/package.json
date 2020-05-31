@@ -1,0 +1,16 @@
+{
+  "name": "03-mocking-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "keywords": [],
+  "author": "Brenno Ferreira <brennowilliam@gmail.com> (http://brennoferreira.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "2.0.0",
+    "jest": "26.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "testing-kent-dodds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assetion-library.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "build-02": "tsc ./02-static-analysis/*.ts && node dist/02-static-analysis/example.js",
+    "build-03": "tsc ./03-mocking-fundamentals/*.ts && node ./03-mocking-fundamentals/monkey-patching.js"
+  },
+  "keywords": [],
+  "author": "Brenno Ferreira <brennowilliam@gmail.com> (http://brennoferreira.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "2.0.0",
+    "eslint": "7.1.0",
+    "jest": "26.0.1"
+  }
+}
